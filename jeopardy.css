@@ -1,0 +1,89 @@
+body {
+  box-sizing: border-box;
+  background-color:#115ff4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /*Ensure full viewport height*/
+  margin: 0; /* Remove default margin */
+}
+
+.container {
+    position: absolute;
+    top: 8%;
+    /* bottom: 8%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center text horizontally */
+}
+
+h1 {
+  color: white;
+  font-size: 48px;
+}
+
+button {
+  background-color: #8d2ab5;
+  color: white;
+}
+
+table {
+  margin-top: 300px; 
+  border-collapse: collapse;
+}
+
+th, td {
+  background-color: #060ce9;
+  width: 8.25rem;
+  border: 1px solid white;
+}
+
+th {
+  height: 3.5rem;
+  
+}
+
+td {
+  height: 5.5rem;
+}
+
+/* styling for "?" */
+td h2 {
+  color: #060ce9;
+  font-size: 38px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 58.82px;
+  margin-right: 58.82px;
+  text-align: center;
+}
+
+/* Apply style to the text inside the <th> */
+.th_styles {
+  color: white;
+}
+
+/* Hiding table */
+.hidden { 
+  display: none;
+}
+
+/* Clicked <td> */
+.clicked-question {
+  color: white; 
+  text-align: center;
+}
+
+.clicked-answer {
+  color: white;
+  background-color: #28a200;
+  text-align: center;
+}
+
+.question-remove {
+  display: none;
+}
+
+  
